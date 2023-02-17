@@ -8,7 +8,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: './',
+    publicPath: '',
+    filename: 'main.js',
   },
   module: {
     rules: [
@@ -32,6 +33,10 @@ module.exports = {
         use: [
           MiniCssExtractPlugin.loader, 'css-loader',
         ],
+      },
+      {
+        test: /\.txt$/i,
+        loader: 'raw-loader',
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif|mp3)$/i,

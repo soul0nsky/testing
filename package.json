@@ -22,27 +22,28 @@
   "author": "ms",
   "license": "ISC",
   "dependencies": {
-    "babel-loader": "^9.1.2",
     "core-js": "3",
-    "css-loader": "^6.7.3",
-    "css-minimizer-webpack-plugin": "^4.2.2",
-    "html-loader": "^4.2.0",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.7.2",
-    "webpack": "^5.75.0",
-    "webpack-merge": "^5.8.0"
+    "raw-loader": "^4.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
     "babel-jest": "^29.4.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.25.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "jest": "^29.4.2",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.11.1",
+    "webpack-merge": "^5.8.0"
   },
   "browserslist": {
     "production": [
