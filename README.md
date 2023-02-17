@@ -1,5 +1,9 @@
 # Организация тестирования
+
 # testing
+
+[![DOM](https://github.com/soul0nsky/testing/actions/workflows/main.yml/badge.svg)](https://github.com/soul0nsky/testing/actions/workflows/main.yml)
+[![Build status](https://ci.appveyor.com/api/projects/status/tgi1p52kyiqrkhe1?svg=true)](https://ci.appveyor.com/project/soul0nsky/testing)
 
 ### Credit Card Validator
 
